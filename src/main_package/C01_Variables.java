@@ -1,6 +1,6 @@
-package package01_variables;
+package main_package;
 
-public class MainClass {
+public class C01_Variables {
     public static void main(String[] args) {
         int number = 2;
         number = 15 / 2;
