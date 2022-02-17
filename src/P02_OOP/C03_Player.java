@@ -1,8 +1,8 @@
 package P02_OOP;
 
 public class C03_Player {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public void setName(String name) {
         this.name = name;
@@ -10,6 +10,14 @@ public class C03_Player {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public void shoot(){
