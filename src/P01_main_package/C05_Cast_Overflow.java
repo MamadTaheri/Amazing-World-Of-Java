@@ -1,4 +1,4 @@
-package main_package;
+package P01_main_package;
 
 public class C05_Cast_Overflow {
     public static void main(String[] args) {

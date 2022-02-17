@@ -1,6 +1,4 @@
-package main_package;
-
-import java.util.Scanner;
+package P01_main_package;
 
 public class C07_String_Array {
     public static void main(String[] args) {
