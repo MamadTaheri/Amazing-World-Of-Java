@@ -1,4 +1,4 @@
-package P04_Inheritance;
+package P03_Inheritance;
 
 public class C01_Animal {
     private int age;
