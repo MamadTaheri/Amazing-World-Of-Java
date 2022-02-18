@@ -19,6 +19,9 @@ public class C01_Animal {
     public void setName(String name) {
         this.name = name;
     }
+    public void f(){
+        System.out.println(" Animal f()");
+    }
 
     public static void main(String[] args) {
         C01_Animal animal = new C01_Animal() ;
