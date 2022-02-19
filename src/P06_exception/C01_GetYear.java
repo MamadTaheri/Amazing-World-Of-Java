@@ -1,11 +1,14 @@
 package P06_exception;
 
+import java.util.EmptyStackException;
 import java.util.Scanner;
 
 public class C01_GetYear {
     public static int getYear(String day) throws Exception{
-        if(day == null || day.length() == 0)
-            throw new Exception("Bad Parameter");
+        if(day == null)
+            throw new NullPointerException();
+        if(day.length() == 0)
+            throw new EmptyStackException();
         String yearString = day.substring(0, 4);
         return Integer.parseInt(yearString);
     }
